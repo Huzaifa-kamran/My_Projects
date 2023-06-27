@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.main-logo{
+    color: lightseagreen;
+    
+}
+.navbar-link{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    margin: 0px 3px;
+    font-weight: 400;
+    transition:200ms all ease-in-out ;
+}
+.navbar-link:hover{
+    color: lightseagreen;
+    border-bottom:1px solid lightseagreen ;
+}
+
+.heading{
+    padding:25px 28px;
+    border-bottom: 1px solid gray;
+}
+.img-text{
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    width: 50%;
+    text-align: center;
+}
+.main-img-text{
+    font-size: 34px;
+}
+.port-btn{
+    background-color: lightseagreen;
+    color: white;
+    padding: 4px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    opacity: 0.80;
+}
+.main-img{
+    height: 100%;
+}
+.img-text2{
+    width: 60%;
+    top: 15%;
+    left: 19%;
+    text-align: center;
+}
+   
+.text-img2{
+    font-size: 32px;
+}
+.img-text3{
+    width: 60%;
+    top: 15%;
+    left: 0%;
+    text-align: center;
+}
+.text-img3{
+    font-size:32px;
+}
+
+.port-btn:hover{
+opacity: 1;
+font-weight: 500;
+}
+.logos{
+    width: 100%;
+}
+
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+.text-sec{
+    background-color:rgb(51, 49, 49);
+    color: white;
+    text-align: center;
+}
+.card-num{
+background-color: lightseagreen;
+}
+.card-num{
+    background-color: lightseagreen;
+    padding:5px 12px;
+    color: white;
+    border-radius: 5px;
+}
+.card-icons{
+    color: lightseagreen;
+}
+
+.team-icons{
+    padding:10px 5px;
+    opacity: 0.75;
+    
+}
+.team-icons:hover{
+    opacity: 1;
+    font-weight: 900;
+    cursor: pointer;
+}
+.team-numbers{
+    font-size: 53px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 14px;
+}
+.heading2{
+    border-bottom:1px solid gray ;
+    
+}
+.text-sec2{
+    background-color: #ebe8e8;
+    
+  
+}
+.text-sec-head{
+    padding-top: 60px;
+}
+.botton-sec{
+    background-color:rgb(46, 49, 49);
+    color: white;
+    padding:30px 0px ;
+}
+footer{
+    width: 100%;
+    background-color: rgba(22, 21, 21, 0.979);
+    color: #ffffff;
+}
+.footer-list{
+    list-style: none;
+    margin-left: -15%;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .img-text{
+        position: absolute;
+        top:23%;
+        left: 18%;
+        width: 65%;
+        text-align: center;
+        
+    }
+    .main-img-text{
+        font-size: 18px;
+    }
+    .img-text2{
+        width: 100%;
+        top: 2%;
+        left: 0%;
+        text-align: center;
+                
+    }
+    .text-img2{
+        font-size: 13px;
+    }
+    .img-text3{
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+    }
+    .text-img3{
+        font-size:16px;
+    }
+    .footer-list{
+        list-style: none;
+        
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .img-text{
+        position: absolute;
+        top:22%;
+        left: 21%;
+        width: 60%;
+        text-align: center;
+        
+    }
+    .main-img-text{
+        font-size: 25px;
+    }
+    .img-text2{
+        width: 82%;
+        top: 3%;
+        left: 11%;
+        text-align: center;
+        
+    }
+    .text-img2{
+        font-size: 19px;
+    }
+    .img-text3{
+        width: 73%;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+    }
+    .text-img3{
+        font-size:20px;
+    }
+    .footer-list{
+        list-style: none;
+        
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .img-text{
+        position: absolute;
+        top:22%;
+        left: 19%;
+        width: 60%;
+        text-align: center;
+        
+    }
+    .img-text2{
+        width: 70%;
+        top: 13%;
+        left: 19%;
+        text-align: center;
+        
+    }
+    .text-img2{
+        font-size: 26px;
+    }
+}
+/* @media (min-width:320px) and (max-width:480px) {
+    
+} */
